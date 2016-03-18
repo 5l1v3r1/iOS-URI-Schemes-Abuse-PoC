@@ -1,6 +1,6 @@
 #### iOS-URI-Schemes-Abuse
 
-A set of URI schemes bugs that lead to crash/freeze of the Safari browser. This shows URI schemes have weakness and can be used for nasty things. Apple is aware of the issue.
+A set of URI schemes bugs that lead Safari to crash/freeze. This shows URI schemes have weakness and can be used for nasty things. Apple is aware of the issue.
 
 ###### file-attack.html (file://)
 
