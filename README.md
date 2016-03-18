@@ -16,10 +16,10 @@ This bug will crash the browser. The user must type the URI in the address bar a
 
 Freeze Safari and Safari + Mail.app on OS X by sending a lot of datas to mailto: URI scheme.
 
-[Exploit](https://htmlpreview.github.io/?https://github.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/blob/master/mailto-attack.html)
+[Exploit](https://htmlpreview.github.io/?https://github.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/blob/master/mailto-iframe.html)
 
 ###### sms-attack.html (sms://)
 
 Same as mailto-attack, may work less better than mailto-attack.
 
-[Exploit](https://htmlpreview.github.io/?https://github.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/blob/master/sms-attack.html)
+[Exploit](https://htmlpreview.github.io/?https://github.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/blob/master/sms-iframe.html)
