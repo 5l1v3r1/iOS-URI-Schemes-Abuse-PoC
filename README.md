@@ -14,14 +14,14 @@ This bug will crash the browser. The user must type the URI in the address bar a
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/file-2-attack.html)
 
-###### mailto-iframe.html (mailto://)
+###### mailto-iframe-attack.html (mailto://)
 
 Freeze Safari and Safari + Mail.app on OS X by sending a lot of datas to mailto: URI scheme.
 
-[Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/mailto-iframe.html)
+[Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/mailto-iframe-attack.html)
 
-###### sms-iframe.html (sms://)
+###### sms-attack.html (sms://)
 
-Same as mailto-iframe, may work less better than mailto-attack.
+Same as mailto-iframe-attack but within a link, may work less better than mailto-iframe-attack.
 
-[Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/sms-iframe.html)
+[Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/sms-attack.html)
