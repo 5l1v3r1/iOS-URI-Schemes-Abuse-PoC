@@ -22,6 +22,6 @@ Freeze Safari and Safari + Mail.app on OS X by sending a lot of datas to mailto:
 
 ###### sms-attack.html (sms://)
 
-Same as mailto-iframe-attack but within a link, may work less better than mailto-iframe-attack.
+Freeze the SMS app by sending a lot of datas to sms: URI scheme. Require that the user either accept the popup / click on the link.
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/sms-attack.html)
