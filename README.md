@@ -2,7 +2,7 @@
 
 A set of URI schemes bugs that lead Safari to crash/freeze. This shows URI schemes have weakness and can be used for nasty things. Apple is aware of the issue.
 
-I decided to start looking at URI scheme after the crashsafari.com massacre. I wanted to find other ways to break Safari so here it is:
+I decided to start looking at URI schemes after the crashsafari.com massacre. I wanted to find other ways to break Safari so here it is:
 
 ###### file-attack.html (file://)
 
