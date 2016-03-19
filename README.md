@@ -6,7 +6,7 @@ I decided to start looking at URI schemes after the crashsafari.com massacre. I 
 
 ###### file-attack.html (file://)
 
-This exploit will crash the user current tab without any specific requirement.
+This bug will crash the user current tab without any specific requirement.
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/file-attack.html)
 
@@ -18,12 +18,12 @@ This bug will crash the browser. The user must type the URI in the address bar a
 
 ###### mailto-iframe-attack.html (mailto://)
 
-Freeze Safari and Safari/Firefox + Mail.app on OS X by sending a lot of datas to mailto: URI scheme.
+This bug will freeze Safari and Safari/Firefox + Mail.app on OS X by sending a lot of datas to mailto: URI scheme.
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/mailto-iframe-attack.html)
 
 ###### sms-attack.html (sms://)
 
-Freeze the SMS app by sending a lot of datas to sms: URI scheme. Require that the user either accept the popup / click on the link.
+This bug will freeze the SMS app by sending a lot of datas to sms: URI scheme. Require that the user either accept the popup / click on the link.
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/sms-attack.html)
