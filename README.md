@@ -1,4 +1,4 @@
-#### iOS-URI-Schemes-Abuse
+#### iOS-URI-Schemes-Abuse-PoC
 
 A set of URI schemes bugs that lead Safari to crash/freeze. This shows URI schemes have weakness and can be used for nasty things. Apple is aware of the issue.
 
@@ -12,18 +12,18 @@ This bug will crash the user current tab without any specific requirement.
 
 ###### file-2-attack.html (file://)
 
-This bug will crash the browser. The user must type the URI in the address bar and press enter.
+This bug will crash the browser on iOS and crash the current tab on OS X. The user must type the URI in the address bar and press enter.
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/file-2-attack.html)
 
 ###### mailto-iframe-attack.html (mailto://)
 
-This bug will freeze Safari and Safari/Firefox + Mail.app on OS X by sending a lot of datas to mailto: URI scheme.
+This bug will freeze Safari and Safari/Firefox + Mail.app on OS X by sending a lot of datas to mailto: URI scheme. **Only work if the user have at least one mailbox setup.**
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/mailto-iframe-attack.html)
 
 ###### sms-attack.html (sms://)
 
-This bug will freeze the SMS app by sending a lot of datas to sms: URI scheme. Require that the user either accept the popup / click on the link.
+This bug will freeze the SMS app by sending a lot of datas to sms: URI scheme. **Require that the user either accept the popup or click on the link.**
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/sms-attack.html)
