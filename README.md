@@ -12,7 +12,7 @@ This bug will crash the user current tab without any specific requirement.
 
 ###### file-2-attack.html (file://)
 
-This bug will crash the browser on iOS and crash the current tab on OS X. The user must type the URI in the address bar and press enter.
+This bug will crash the browser on iOS and crash the current tab on OS X. **The user must type the URI in the address bar and press enter.**
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/file-2-attack.html)
 
