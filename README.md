@@ -24,7 +24,7 @@ This bug will crash the browser on iOS and crash the current tab on OS X. **The 
 
 This bug will freeze Safari and Safari/Firefox + Mail.app on OS X by sending a bunch of datas to mailto: URI scheme. **Only work if the user have at least one mailbox setup.**
 
-**Not fixed yet**
+**Fixed in iOS 10 / macOS Sierra**
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/mailto-iframe-attack.html)
 
@@ -32,6 +32,6 @@ This bug will freeze Safari and Safari/Firefox + Mail.app on OS X by sending a b
 
 This bug will freeze the SMS app by sending a lot of datas to sms: URI scheme. **Require that the user either accept the popup or click on the link.**
 
-**Not fixed yet**
+**Partially fixed in iOS 10 / macOS Sierra**
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/sms-attack.html)
