@@ -24,7 +24,7 @@ This bug will crash the browser on iOS and crash the current tab on OS X. **The 
 
 This bug will freeze Safari and Safari/Firefox + Mail.app on OS X by sending a bunch of datas to mailto: URI scheme. **Only work if the user have at least one mailbox setup.**
 
-**Fixed in iOS 10.1 / macOS Sierra**
+**Fixed in iOS 10.1 / macOS Sierra (CVE-2016-7580 / CVE-2016-7581)**
 
 [Exploit](https://cdn.rawgit.com/pwnsdx/iOS-URI-Schemes-Abuse-PoC/master/mailto-iframe-attack.html)
 
